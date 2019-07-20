@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js add-one.js tests/unit.js tests/e2e.js",
-    "test": "npm run lint && nodeunit tests/unit.js"
+    "test": "npm run lint && nodeunit tests/"
   },
   "author": "",
   "license": "ISC",
