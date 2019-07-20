@@ -1,0 +1,24 @@
+{
+  "name": "module-19-lesson-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js add-one.js tests/unit.js tests/e2e.js",
+    "test": "npm run lint && nodeunit tests/unit.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodeunit": "^0.11.3",
+    "puppeteer": "^1.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
