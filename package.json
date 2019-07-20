@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js add-one.js tests/unit.js tests/e2e.js",
-    "test": "npm run lint && nodeunit tests/"
+    "test": "npm run lint && nodeunit tests/",
+    "cover": "nyc npm run test"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "nyc": "^14.1.1"
   }
 }
